@@ -1,0 +1,48 @@
+.button_big{
+    width: max-content;
+    height: 3rem;    
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    border-style: none;
+    padding: 0px 3.75rem;
+    border-radius: var(--radius-default);
+    cursor: pointer;  
+    display: flex;
+    align-items: center;  
+}
+.button_big:hover{
+    background-color: var(--color-brand-2);
+}
+
+.button_little{
+    width: max-content;
+    height: 2.375rem;    
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    border-style: none;
+    padding: 0px 1.5rem;
+    border-radius: var(--radius-default);
+    cursor: pointer;    
+}
+.button_little:hover{
+    background-color: var(--color-brand-2);
+}
+
+
+.button_delete{
+    background-color: var(--color-grey-5);
+    border-style: none;
+    height: 2.375rem;
+    width: 2.75rem;
+    border-radius: var(--radius-default);
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    cursor: pointer;  
+}
+.button_delete:hover{
+    background-color: var(--color-grey-3);
+}
+
+
+    

@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/margins.css">
+    <link rel="stylesheet" href="index.css">    
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <title>Webwomen</title>
     <meta
@@ -14,10 +19,37 @@
       Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
       e ao redor do mundo?"
     />
+    
 </head>
 <body>
-    <main></main>
+    <div class="initial_container">
+      <section>
+        <img src="/assets/img/logo.svg" alt="Webwomen" class="mg_bt_1">
+        <h2 class="color_grey_3 mg_bt_2 title_3">Lugar de mulher é onde ela quiser!</h2>
+        <p class="color_grey_5 mg_bt_2 text_2">Está procurando oportunidades de estágio, emprego ou bolsas de estudo? Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?</p>
+        <p class="color_grey_5 mg_bt_1 text_2">Confere aqui embaixo o que temos pra você!</p>
+        <a href="#main" class="button_big text_2">Ir para seção das vagas</a>
+      </section>
+    </div>
+    
+    <main id="main" class="container">
+      <section class="container_vagas">
+        <h2 class="title_4 color_grey_1">Vagas</h2>
+        <ul  id="jobsList">
+                          
+        </ul>
+      </section>
+        
+      <aside class="aside mg_bt_2">
+        <h2 class="title_4 color_grey_1">Vagas Selecionadas</h2>
+        <p id="assideText" class="text_2 color_grey_2">Você ainda não aplicou para nenhuma vaga</p>
+        <ul id="jobsListSelected">
+        
+        </ul>
+      </aside>
+    </main>
+    <script src="/scripts/render.js"></script>
     <script src="jobsData.js"></script>
     <script src="index.js"></script>
-</body>
+</bodyclass=>
 </html>
