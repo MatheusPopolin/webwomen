@@ -95,7 +95,7 @@ function createCardJobSelected(job){
     let deleteButton = document.createElement("button");
     deleteButton.classList = "button_delete";
     deleteButton.id = id;
-    deleteButton.innerHTML = `<img src="/assets/img/trash.png" alt="Excluir" id="${id}">`;
+    deleteButton.innerHTML = `<img src="../../assets/img/trash.png" alt="Excluir" id="${id}">`;
     deleteButton.addEventListener("click", event=>{        
         jobsSelected.forEach((job,index)=>{
             if(event.target.id==job.id){
