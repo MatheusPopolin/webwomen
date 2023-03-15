@@ -2,7 +2,7 @@ body{
     position: relative;
 }
 .initial_container{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(/assets/img/background.png);
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../../assets/img/background.png);
     background-position: center;
     background-attachment: fixed;    
 }
